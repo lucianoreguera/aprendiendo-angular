@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'reto1';
+  cities = ['Catamarca', 'Córdoba', 'San Luis'];
+  name!: string;
+  title = 'Aprendiendo Angular';
+  urlImage = 'https://sg.com.mx/sites/default/files/styles/570x500/public/images/angular-logo.png?itok=_4hR0cNu';
 }
